@@ -22,7 +22,6 @@ def resize_image(image):
     width = image_width
     height = image_height
     img = image.resize((width, height), Image.ANTIALIAS)
-    img.save('test.bmp')
     return img
 
 def load_image(file_name):
