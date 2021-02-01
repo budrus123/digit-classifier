@@ -2,6 +2,7 @@ from sklearn import datasets
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 from PIL import Image
+import sys
 # import matplotlib.pyplot as plt
 
 image_width = 32
@@ -102,7 +103,8 @@ def main():
     knn.fit(X, y)
 
     # Opening and formatting the image to correct shape
-    image = load_image('examples/number_9.jpg')
+    file_name = sys.argv[1]
+    image = load_image(file_name)
     image_btmp = jpg_to_bit_map(image)
     resized_image = resize_image(image_btmp)
     values = np.array(resized_image.getdata())
