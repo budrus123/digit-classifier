@@ -4,7 +4,7 @@ CONTENTS OF THIS FILE
 ---------------------
 
  * Introduction
- * Installation
+ * Usage
 
 INTRODUCTION
 ------------
@@ -19,7 +19,7 @@ After that, the image is segmented into distinct blocks of 4x4 and the number of
 values is created to represent each distinct block. This creates our instance vector which is used by the learner to predict the single digit. At the end,
 the digit prediction is shown to the user.
 
-INSTALLATION
+Usage
 ------------
 
 ```sh
