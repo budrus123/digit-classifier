@@ -9,7 +9,7 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 A machine learner using K-Nearest Neighbors method (KNN) to predict a single handwritten digit. The learner uses the scikit-learn
-digits dataset for training purpose. The project takes a jpg file as input and then this jpg is transformed into a 32x32 bmp image.An example of an input image can
+digits dataset for training purpose. The project takes a jpg file as input and then this jpg is transformed into a 32x32 bmp image. An example of an input image can
 be seen below as well as in the examples directory.
 
 
